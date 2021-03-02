@@ -17,3 +17,6 @@ conda env remove --name <environment_name>
 
 ### install requirements but skip failed libraries
 cat <requirements.txt>| xargs -n 1 pip install
+
+### check version of library / package
+pi freeze | grep <libary>
