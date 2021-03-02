@@ -1,4 +1,0 @@
-# Conda Commands
----
-#create a new conda environment with specificed python version
-conda create -n <environment_name> python=x.x anaconda
