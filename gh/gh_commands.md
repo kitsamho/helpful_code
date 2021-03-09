@@ -19,7 +19,7 @@ this can be the name of the notebook
 ### push content on branch to origin
 - `git push --set-upstream origin <branchname>`
 
-this adds  an upstream branch
+this adds an upstream branch
 
 ## In the GitHub UI
 
@@ -28,3 +28,16 @@ this adds  an upstream branch
  - add name of pull request (use the Jira Tickets for this)
  - add message
  - create pull request
+
+
+# Fetching Branches
+---
+Sometimes there will be functionality that isn't in the main repo that has been cloned.
+
+You may want something from a branch name
+
+### fetch branches
+- `git fetch`
+
+### select branch
+-`git checkout <name of branch>`
